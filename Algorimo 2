@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+int main(){
+    char v1;//variable de tipo share
+    bool v2;//variable de tipo entero con signo
+    char v3[10];//cadena de 10 caracteres
+    
+    printf("ingres un dato de tipo char\n");
+    scanf("%c", &v1);
+    printf("ingres un dato de tipo bool\n");
+    scanf("%ld", &v2);
+    printf("ingres un dato de tipo cadena\n");
+    scanf("%s", &v3);
+    
+    printf("valores leidos\n");
+    printf("%c\n", v1);
+    printf("%ld\n", v2);
+    printf("%s\n", v3);
+
+    return 0;
+}
