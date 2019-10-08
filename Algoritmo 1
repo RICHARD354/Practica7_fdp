@@ -35,4 +35,4 @@ int main(){
     printf("%hd\t%hd\t%hd\t%d\t%d\t%d\t%ld\t%ld\t%ld\n", s, _, us, __, v_1, v_2, sl, v_3, ul);
     
     return 0;
-}
+ }
