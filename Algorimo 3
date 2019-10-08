@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 int main(){
-    char v1;//variable de tipo share
+    char v1;//variable de tipo char
     bool v2;//variable de tipo entero con signo
     char v3[10];//cadena de 10 caracteres
     
