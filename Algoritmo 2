@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float v_f;//variable de tipo share
+    double v_d;//variable de tipo real con signo
+    long double v_ld;
+    
+    printf("ingresa un dato de tipo float\n");
+    scanf("%f", &v_f);
+    printf("ingresa un dato de tipo double\n");
+    scanf("%lf", &v_d);
+    printf("ingresa un dato de tipo long double\n");
+    scanf("%Lf", &v_ld);
+    
+    printf("Valores leidos\n");
+    printf("%f\t%e\t%g\n", v_f, v_f, v_f);
+    printf("%lf\t%le\t%lg\n", v_d, v_d, v_d);
+    printf("%Lf\t%Le\t%Lg\n", v_ld, v_ld, v_ld);
+    return 0;
+}
