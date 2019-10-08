@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    signed short s;
+    short _;//variable short
+    unsigned short us;
+    signed int __;//variable entero con signo
+    int v_1;//variable del tipo entero con signo
+    unsigned int v_2;//variable de tipo entero sin signo
+    signed long sl;
+    long v_3;//variable del tipo long
+    unsigned long ul;
+    
+    printf("ingresa un daro de tipo signed short\n");
+    scanf("%hd", &s);
+    printf("ingresa un daro de tipo short\n");
+    scanf("%hd", &_);
+    printf("ingresa un daro de tipo unsigned short\n");
+    scanf("%hd", &us);
+    printf("ingresa un daro de tipo signed int\n");
+    scanf("%d", &__);
+    printf("ingresa un daro de tipo int\n");
+    scanf("%d", &v_1);
+    printf("ingresa un daro de tipo unsigned int\n");
+    scanf("%d", &s);
+    printf("ingresa un daro de tipo signed long\n");
+    scanf("%ld", &sl);
+    printf("ingresa un daro de tipo long\n");
+    scanf("%ld", &v_3);
+    printf("ingresa un daro de tipo unsigned long\n");
+    scanf("%d", &ul);
+    
+    printf("Valores leidos\n");
+    printf("%hd\t%hd\t%hd\t%d\t%d\t%d\t%ld\t%ld\t%ld\n", s, _, us, __, v_1, v_2, sl, v_3, ul);
+    
+    return 0;
+}
